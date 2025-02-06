@@ -1,5 +1,5 @@
-import "../styles/globals.css"; // Ensure global styles are loaded
-import "@fortawesome/fontawesome-free/css/all.min.css"; // Import FontAwesome styles
+import "@fortawesome/fontawesome-free/css/all.css";
+import "../styles/globals.css"; // Keep existing styles
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
