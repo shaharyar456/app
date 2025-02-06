@@ -13,7 +13,7 @@ const HomePage = () => {
               className="w-12 h-12 rounded-full"
             />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">LILTREYS</h1>
+              <h1 className="text-xl font-bold text-gray-900">LILTKEYS</h1>
               <p className="text-sm text-gray-600">Custom painted Keychain</p>
             </div>
           </div>
