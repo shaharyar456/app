@@ -2,8 +2,22 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="h-full text-base-content">
-      <div id="main" className="max-w-7xl mx-auto px-4 py-8">
+    <div className="flex h-full text-base-content">
+      {/* Sidebar */}
+      <aside className="w-64 bg-black text-white h-screen p-6 flex flex-col">
+        <h2 className="text-xl font-bold mb-6">TrustMarket</h2>
+        <nav>
+          <ul>
+            <li className="mb-4 flex items-center gap-2 cursor-pointer">
+              <span className="text-lg">📂</span> Explore
+            </li>
+            <li className="text-gray-400">Coming soon</li>
+          </ul>
+        </nav>
+      </aside>
+
+      {/* Main Content */}
+      <div className="flex-1 max-w-7xl mx-auto px-4 py-8">
         {/* HEADER */}
         <header id="header" className="flex items-center justify-between mb-16">
           <div className="flex items-center gap-3">
@@ -63,9 +77,14 @@ const HomePage = () => {
             ))}
           </div>
         </section>
+
+        {/* Footer */}
+        <footer className="text-center text-gray-600 mt-12">
+          © 2025 LILTKEYS. All rights reserved.
+        </footer>
       </div>
     </div>
   );
 };
 
-export default HomePage; // ✅ Only one export statement!
+export default HomePage; // ✅ Only one export
