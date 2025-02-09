@@ -8,7 +8,7 @@ const LiltkeysPage = () => {
     <div className="flex h-full">
       {/* Mobile Header (Visible Only on Small Screens) */}
       <div className="fixed top-0 left-0 w-full bg-black text-white flex items-center justify-between px-4 py-3 md:hidden z-50">
-        <h1 className="text-lg font-bold">TrustMarkett</h1>
+        <h1 className="text-lg font-bold">TrustMarket</h1>
         <button
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
           className="p-2 text-white"
