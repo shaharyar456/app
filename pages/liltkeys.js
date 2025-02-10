@@ -33,12 +33,14 @@ const LiltkeysPage = () => {
           </button>
         </div>
         <nav>
-          <div className="flex items-center gap-2 mb-4 cursor-pointer hover:text-gray-300">
+          <div
+            className="flex items-center gap-2 mb-4 cursor-pointer hover:text-gray-300"
+            onClick={() => (window.location.href = "https://trustmarket.ca")}
+          >
             <i className="fa-solid fa-globe text-lg"></i>
             <span>Explore</span>
             <i className="fa-solid fa-arrow-up-right-from-square ml-auto text-sm"></i>
           </div>
-          <div className="text-sm text-gray-400">Coming soon</div>
         </nav>
       </aside>
 
