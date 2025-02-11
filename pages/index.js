@@ -54,13 +54,14 @@ const HomePage = () => {
       </div>
 
       <div className="relative z-10 flex min-h-screen">
-        <div className="fixed top-0 left-0 w-full bg-black text-white flex items-center justify-between px-4 py-3 md:hidden z-50">
-          <h1 className="text-lg font-bold">TrustMarket</h1>
+        {/* Mobile Header */}
+        <div className="fixed top-0 left-0 w-full bg-black text-white flex items-center justify-between px-3 py-2 md:px-4 md:py-3 md:hidden z-50">
+          <h1 className="text-base font-bold md:text-lg">TrustMarket</h1>
           <button
             onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-            className="p-2 text-white"
+            className="p-1 text-white md:p-2"
           >
-            <i className="fa-solid fa-bars text-2xl"></i>
+            <i className="fa-solid fa-bars text-xl md:text-2xl"></i>
           </button>
         </div>
 
@@ -110,3 +111,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
