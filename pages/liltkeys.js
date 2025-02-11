@@ -1,4 +1,3 @@
-// /pages/liltkeys.js (For trustmarket.ca/liltkeys)
 import React, { useState } from "react";
 
 const LiltkeysPage = () => {
@@ -7,13 +6,13 @@ const LiltkeysPage = () => {
   return (
     <div className="flex h-full">
       {/* Mobile Header (Visible Only on Small Screens) */}
-      <div className="fixed top-0 left-0 w-full bg-black text-white flex items-center justify-between px-4 py-3 md:hidden z-50">
-        <h1 className="text-lg font-bold">TrustMarket</h1>
+      <div className="fixed top-0 left-0 w-full bg-black text-white flex items-center justify-between px-3 py-2 md:px-4 md:py-3 md:hidden z-50">
+        <h1 className="text-base font-bold md:text-lg">TrustMarket</h1>
         <button
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="p-2 text-white"
+          className="p-1 text-white md:p-2"
         >
-          <i className="fa-solid fa-bars text-2xl"></i>
+          <i className="fa-solid fa-bars text-xl md:text-2xl"></i>
         </button>
       </div>
 
@@ -46,37 +45,41 @@ const LiltkeysPage = () => {
 
       {/* Main Content (Adjusted for Sidebar) */}
       <div className="md:ml-64 flex-1 px-8 py-6 mt-16 md:mt-0">
-        {/* Profile Header */}
-        <header className="flex items-center justify-between mb-16">
+        {/* Profile Header with Reduced Height on Mobile */}
+        <header className="flex items-center justify-between mb-12 md:mb-16">
           <div className="flex items-center gap-3">
             <img
               src="/images/1.jpg"
               alt="Profile"
-              className="w-12 h-12 rounded-full"
+              className="w-10 h-10 md:w-12 md:h-12 rounded-full"
             />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">LILTKEYS</h1>
-              <p className="text-sm text-gray-600">Custom painted Keychain</p>
+              <h1 className="text-base md:text-xl font-bold text-gray-900">
+                LILTKEYS
+              </h1>
+              <p className="text-xs md:text-sm text-gray-600">
+                Custom painted Keychain
+              </p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row md:items-center gap-2">
-            <span className="text-gray-800 font-medium">Contact</span>
+            <span className="text-gray-800 font-medium text-sm md:text-base">
+              Contact
+            </span>
             <div className="flex gap-4">
-              {/* Instagram Icon */}
               <a
                 href="https://www.instagram.com/liltkeys/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-pink-600 hover:text-pink-700"
               >
-                <i className="fa-brands fa-instagram text-xl"></i>
+                <i className="fa-brands fa-instagram text-base md:text-xl"></i>
               </a>
-              {/* Email Icon */}
               <a
                 href="mailto:liltkeys@gmail.com"
                 className="text-gray-700 hover:text-gray-800"
               >
-                <i className="fa-solid fa-envelope text-xl"></i>
+                <i className="fa-solid fa-envelope text-base md:text-xl"></i>
               </a>
             </div>
           </div>
