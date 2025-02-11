@@ -83,17 +83,37 @@ const LiltkeysPage = () => {
         </header>
 
         {/* Accepting Orders Section */}
-        <section className="bg-gray-50 p-6 rounded-lg shadow-md mb-16">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-2">
-            Accepting orders - Fabric & Leather
+        <section className="bg-gray-50 p-4 md:p-6 rounded-lg shadow-md mb-16">
+          <h2 className="text-lg md:text-2xl font-bold text-gray-800 mb-2">
+            🖌 Hand-Painted Keychains, Made Just for You! 🎨
           </h2>
-          <div className="text-left space-y-1">
-            <p className="text-base text-gray-700">$15 - $40</p>
-            <p className="text-base text-gray-700">
-              Shipping/pick up available (Toronto-based)
+          <div className="text-left space-y-2 md:space-y-3">
+            <p className="text-sm md:text-base text-gray-700">
+              Starting at <strong>$15 - $40</strong>, each keychain is a{" "}
+              <strong>unique, custom-painted masterpiece</strong> crafted with
+              precision and passion.
             </p>
-            <p className="text-base text-gray-700">
-              "Ask me to attempt anything, I'll try my best!"
+            <p className="text-sm md:text-base text-gray-700">
+              📍{" "}
+              <strong>Available for Pickup & Shipping (Toronto Based)</strong>
+            </p>
+            <p className="text-sm md:text-base text-gray-700">
+              💡 <strong>Personalized Designs</strong> – Have a vision? Let’s
+              make it happen!
+            </p>
+            <p className="text-sm md:text-base text-gray-700">
+              🖌 <strong>High-Quality Fabric & Leather Materials</strong>
+            </p>
+            <p className="text-sm md:text-base text-gray-700">
+              🎁 <strong>Perfect for Gifts, Accessories & Collectibles</strong>
+            </p>
+            <p className="text-sm md:text-base text-gray-700">
+              🔹 <strong>Custom Requests Welcome!</strong> Whether it's your
+              favorite anime character, a beloved pet, or a unique concept, I’ll
+              bring it to life with detailed, hand-painted designs.
+            </p>
+            <p className="text-sm md:text-base text-gray-700">
+              ✨ <em>"Ask me to attempt anything, I'll try my best!"</em> ✨
             </p>
           </div>
         </section>
