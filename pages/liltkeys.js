@@ -49,9 +49,9 @@ const LiltkeysPage = () => {
         <header className="flex items-center justify-between mb-12 md:mb-16">
           <div className="flex items-center gap-3">
             <img
-              src="/images/1.jpg"
+              src="/images/10.jpg"
               alt="Profile"
-              className="w-10 h-10 md:w-12 md:h-12 rounded-full"
+              className="w-16 h-16 md:w-20 md:h-20 rounded-full"
             />
             <div>
               <h1 className="text-base md:text-xl font-bold text-gray-900">
@@ -105,7 +105,7 @@ const LiltkeysPage = () => {
               make it happen!
             </p>
             <p className="text-sm md:text-base text-gray-700">
-              🖌 <strong>High-Quality Fabric & Leather Materials</strong>
+              🖌 <strong>Canvases, Murals, Fabric Work & Leather Orders</strong>
             </p>
             <p className="text-sm md:text-base text-gray-700">
               🎁 <strong>Perfect for Gifts, Accessories & Collectibles</strong>
