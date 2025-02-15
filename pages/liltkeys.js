@@ -58,7 +58,7 @@ const LiltkeysPage = () => {
                 LILTKEYS
               </h1>
               <p className="text-xs md:text-sm text-gray-600">
-                Custom painted Keychain
+                Custom Painted Keychain
               </p>
             </div>
           </div>
